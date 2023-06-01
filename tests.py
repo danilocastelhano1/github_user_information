@@ -71,6 +71,6 @@ class TestFileSave(unittest.TestCase):
             following=0,
             repos_url="http://127.0.0.1/repos")
 
-        with patch('builtins.open', new=mock_open(read_data='Fooooo')) as _file:
+        with patch('builtins.open', new=mock_open(read_data="")) as _file:
             filepath = FileSave().save_to_file(github_user_model=github_user_model)
             self.assertIsNotNone(filepath)
