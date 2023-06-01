@@ -16,4 +16,4 @@ agora só executar o comando usando: `python main.py --username nome_do_usuario_
 
 ## Testando o script
 Para testar o script, devemos seguir os passos:
-Navegar até o diretório onde se encontra o arquivo `main.py` e executar: python -m unittest tests`
+Navegar até o diretório onde se encontra o arquivo `main.py` e executar: `python -m unittest tests`
