@@ -3,8 +3,8 @@ import os
 from typing import Tuple
 from typing import Optional
 
-
 from src.models import GithubUser
+
 from src.mappers import GITHUB_USER_MAPPERS
 
 

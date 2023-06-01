@@ -4,7 +4,6 @@ from unittest.mock import patch
 from unittest.mock import mock_open
 
 import requests_mock
-import builtins
 
 from requests import HTTPError
 
